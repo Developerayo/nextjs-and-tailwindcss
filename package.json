@@ -1,0 +1,34 @@
+{
+  "name": "nextjs-and-tailwindcss",
+  "version": "2.0.0",
+  "description": "Nextjs intergration with Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:Developerayo/nextjs-and-tailwindcss.git"
+  },
+  "author": "Shodipo Ayomide (developerayo)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Developerayo/nextjs-and-tailwindcss/issues"
+  },
+  "homepage": "https://github.com/Developerayo/nextjs-and-tailwindcss#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "autoprefixer": "^9.5.1",
+    "cssnano": "^4.1.10",
+    "postcss-easy-import": "^3.0.0",
+    "tailwindcss": "^1.0.3"
+  }
+}
